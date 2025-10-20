@@ -35,8 +35,6 @@
           <tagNameFormat>@{project.artifactId}-@{project.version}</tagNameFormat>
           <preparationGoals>clean verify</preparationGoals>
           <goals>clean package</goals>
-          <useReleaseProfile>false</useReleaseProfile>
-          <releaseProfiles>!deploy</releaseProfiles>
         </configuration>
       </plugin>
     </plugins>
